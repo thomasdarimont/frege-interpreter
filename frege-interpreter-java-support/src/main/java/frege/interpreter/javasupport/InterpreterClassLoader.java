@@ -34,7 +34,7 @@ public class InterpreterClassLoader extends URLClassLoader implements
     public InterpreterClassLoader(final ClassLoader parent,
                                   final Map<String, byte[]> classFiles) {
         super(new URL[0], parent);
-        this.classes = classFiles;
+        this.classes = new HashMap<>(classFiles);
     }
 
     @Override

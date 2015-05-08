@@ -31,7 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class FregeScriptEngine extends AbstractScriptEngine implements
+public class FregeScriptEngine {/*extends AbstractScriptEngine implements
     Compilable {
 
     private static final String FREGE_PRELUDE_SCRIPT_KEY = "frege.scriptengine.preludeScript";
@@ -259,4 +259,4 @@ public class FregeScriptEngine extends AbstractScriptEngine implements
             ScriptContext.ENGINE_SCOPE);
     }
 
-}
+*/}

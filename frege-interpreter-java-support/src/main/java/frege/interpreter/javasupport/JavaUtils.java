@@ -119,6 +119,10 @@ public class JavaUtils {
 	  }
 	}
 
+    public static void extend(String code) {
+        System.out.println();
+    }
+
 }
 
 

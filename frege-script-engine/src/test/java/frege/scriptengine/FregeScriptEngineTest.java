@@ -21,7 +21,7 @@ public class FregeScriptEngineTest {
 
     private ScriptEngine frege;
 
-    @Before
+    /*@Before
     public void beforeTest() {
         final ScriptEngineManager factory = new ScriptEngineManager();
         this.frege = factory.getEngineByName("frege");
@@ -161,5 +161,5 @@ public class FregeScriptEngineTest {
         final Object expected = frege.eval("let x = 5 in x + 3");
         final Object actual = 8;
         assertEquals(expected, actual);
-    }
+    }*/
 }

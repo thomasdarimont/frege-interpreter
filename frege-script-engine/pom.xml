@@ -26,7 +26,7 @@
             <version>1.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.theoryinpractise.frege</groupId>
+            <groupId>org.frege-lang</groupId>
             <artifactId>frege</artifactId>
         </dependency>
         <dependency>

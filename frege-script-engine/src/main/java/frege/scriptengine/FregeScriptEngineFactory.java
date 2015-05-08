@@ -71,11 +71,11 @@ public class FregeScriptEngineFactory implements ScriptEngineFactory {
 
 	@Override
 	public ScriptEngine getScriptEngine() {
-		try {
+		/*try {
 			return new FregeScriptEngine(this);
 		} catch (final Throwable e) {
 			e.printStackTrace();
-		}
+		}*/
 		return null;
 	}
 
